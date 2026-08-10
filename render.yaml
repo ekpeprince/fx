@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: ict-trading-suite
+    env: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: OANDA_API_KEY
+        sync: false
+      - key: OANDA_ACCOUNT_ID
+        sync: false
+      - key: OANDA_ENVIRONMENT
+        value: practice
+      - key: ALPACA_API_KEY
+        sync: false
+      - key: ALPACA_SECRET_KEY
+        sync: false
+      - key: ALPACA_ENVIRONMENT
+        value: paper
+      - key: GEMINI_API_KEY
+        sync: false

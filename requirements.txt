@@ -1,0 +1,8 @@
+youtube-transcript-api
+yfinance
+pandas
+streamlit
+plotly
+python-dotenv
+openai
+requests

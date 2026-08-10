@@ -1,0 +1,19 @@
+# Environment Variables (Keep API keys secret!)
+.env
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# PyInstaller Build Folders
+build/
+dist/
+*.spec
+
+# Live Data logs (optional to ignore)
+live_trades.csv
