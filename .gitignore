@@ -17,3 +17,8 @@ dist/
 
 # Live Data logs (optional to ignore)
 live_trades.csv
+
+bot.log
+bot_status.json
+bot.pid
+backtest_results.md
